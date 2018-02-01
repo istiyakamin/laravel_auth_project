@@ -6,13 +6,13 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public public function __construck()
+   	public function __construct()
     {
 
     }
 
-    public public function index($value='')
+    public function index()
     {
-    	return view('admin.home');
+    	return view('admin.admin');
     }
 }
